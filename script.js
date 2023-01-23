@@ -35,7 +35,7 @@ else{
 
 /*Ciclo FOR*/
 
-console.log ("Ejm A: ")
+/*console.log ("Ejm A: ")
 
 for (let i=0 ; i<5 ; i=i+1){
     console.log("Hello World")
@@ -59,7 +59,7 @@ for (let i=0 ; i<=6 ; i=i+2){
     console.log(i)
 }
 
-console.log("Ejm E: ")
+console.log("Ejm E: ")*/
 
 /*let passwordUser=parseInt(prompt("Ingrese su contraseña: "))
 const passwordAuth = 1606
@@ -76,7 +76,7 @@ for (let i=0 ; i<2 ; i++){
     }
 }*/
 
-console.log("Ejm F: ")
+/*console.log("Ejm F: ")
 
 for (let i=0 ; i<=10 ; i++){
     if (i%2 == 0){
@@ -92,5 +92,21 @@ let name = prompt("Ingrese un nombre: (Par salir, ingrese:salir)")
 while (name != "salir"){
     console.log(name);
     name = prompt("Ingrese un nombre: (para salir, ingrese: salir)")
+}*/
+
+//FUNCIONES
+
+/*function holaMundo(){
+    alert("Hello World")
 }
 
+holaMundo()*/
+
+//Funciones que ejecutan acciones
+
+function num3(){
+    return 3;
+}
+
+let numTres = num3()
+console.log(numTres)
