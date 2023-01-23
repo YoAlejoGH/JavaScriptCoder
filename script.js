@@ -144,7 +144,12 @@ console.log(resultadoSuma)*/
 
 //Forma 4
 
-function sumar (valorA,valorB){
+/*function sumar (valorA,valorB){
     return valorA + valorB
 }
-console.log(sumar(500,563))
+console.log(sumar(500,563))*/
+
+//Forma 5 
+
+let sumaAnonima = function (a,b) {return a + b}
+console.log (sumaAnonima(200,800))
