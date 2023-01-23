@@ -104,9 +104,30 @@ holaMundo()*/
 
 //Funciones que ejecutan acciones
 
-function num3(){
+/*function num3(){
     return 3;
 }
 
 let numTres = num3()
-console.log(numTres)
+console.log(numTres)*/
+
+//Funcion que sume:
+
+/*function sumar(valorA, valorB){
+    let resultado = valorA + valorB;
+    return resultado;
+}
+
+let numUno = 100;
+let numDos = 200;
+
+let resultadoSuma = sumar(numUno, numDos);
+console.log(resultadoSuma);*/
+
+function sumar(valorA, valorB){
+    let resultado = valorA + valorB
+    return resultado
+}
+
+let resutadoSuma = sumar(100,700)
+console.log(resutadoSuma)
