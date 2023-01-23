@@ -124,10 +124,27 @@ let numDos = 200;
 let resultadoSuma = sumar(numUno, numDos);
 console.log(resultadoSuma);*/
 
-function sumar(valorA, valorB){
+//Forma 2
+
+/*function sumar(valorA, valorB){
     let resultado = valorA + valorB
     return resultado
 }
 
 let resutadoSuma = sumar(100,700)
-console.log(resutadoSuma)
+console.log(resutadoSuma)*/
+
+//Forma 3
+
+/*function sumar (valorA, valorB){
+    return valorA + valorB
+}
+let resultadoSuma = sumar(500,65)
+console.log(resultadoSuma)*/
+
+//Forma 4
+
+function sumar (valorA,valorB){
+    return valorA + valorB
+}
+console.log(sumar(500,563))
