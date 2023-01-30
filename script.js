@@ -153,3 +153,4 @@ console.log(sumar(500,563))*/
 
 let sumaAnonima = function (a,b) {return a + b}
 console.log (sumaAnonima(200,800))
+
